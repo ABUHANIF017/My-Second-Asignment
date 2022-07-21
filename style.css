@@ -44,6 +44,10 @@
         border: none;
     }
     
+    .containt-box button:hover {
+        background-color: orange;
+    }
+    
     .fa-solid {
         margin-left: 13px;
         font-size: 13px;
@@ -211,6 +215,19 @@
         border-radius: 5px;
         margin-top: 50px;
     }
+    
+    .social-link {
+        width: 200px;
+        margin: auto;
+        padding-bottom: 30px;
+        display: none;
+    }
+    
+    .social-link a {
+        color: white;
+        margin-left: 20px;
+        font-size: 2em;
+    }
     /* media-quary-start */
     /* mobile-view-start */
     
@@ -243,6 +260,9 @@
         }
         .foot-link {
             margin-top: 10vh;
+        }
+        .social-link {
+            display: block;
         }
     }
     /* mobile-view-end */
